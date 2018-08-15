@@ -17,7 +17,7 @@ def list_reverse(a):
         if isinstance(a, str):
             a = list(a)
         else:
-            raise ValueError('Value Error, Excepted list or str, but {0} Input'.format(type(a)))
+            raise ValueError('Value Error, Excepted list or str, but {0} accepted'.format(type(a)))
 
     for i in range(int(len(a) / 2)):
         tmp = a[i]
