@@ -11,6 +11,8 @@ def list_reverse(a):
     This function is order to reverse a list with python.
     :param a: a list object
     :return:
+
+    : doc 这是一个字符串或者列表反转的python实现。
     """
     # judge type of the a, is not str or list raise a value Error.
     if not isinstance(a, list):
@@ -35,8 +37,7 @@ def test_reverse_list():
 
 
 def test_reverse_str():
-    b_str = 'iosadjjs'
-    reversed_b_str = list_reverse(b_str)
+    reversed_b_str = list_reverse("iosadjjs")
 
     res = ''.join(reversed_b_str)
     assert res == "sjjdasoi"
