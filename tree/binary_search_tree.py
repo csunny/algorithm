@@ -16,9 +16,6 @@ class Node:
         self._right = right
 
     @property
-
-
-
     def val(self):
         return self._val
 
