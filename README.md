@@ -43,10 +43,12 @@ impletement data-structure and algorithm with python
 - 搜索算法
     - [二分查找]()
     
+    
 - NP(贪婪算法)
-    -[]()
+    - []()
 - DP(动态规划)
-    -[]()
+    - []()
+    
 - 分布式算法
     - [Raft](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/raft.py)
     - [Paxos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/paxos.py)
