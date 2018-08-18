@@ -17,8 +17,6 @@ impletement data-structure and algorithm with python
 
 ![flower](https://github.com/csunny/algorithm/blob/master/images/light.jpg)
 
-
-[TOC]
 ## 数据结构
 数据结构里面包含了基础的数据结构，比如列表、链表、队列、栈、堆、二叉树、图、哈希表等数据结构。
 
@@ -46,17 +44,17 @@ impletement data-structure and algorithm with python
     - [二分查找]()
     
 - NP(贪婪算法)
-
+    -[]()
 - DP(动态规划)
-
+    -[]()
 - 分布式算法
-    - [Raft]()
-    - [Paxos]()
-    - [Pow]()
-    - [Pos]()
-    - [Dpos]()
+    - [Raft](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/raft.py)
+    - [Paxos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/paxos.py)
+    - [Pow](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/pow.py)
+    - [Pos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/pos.py)
+    - [Dpos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/dpos.py)
     - [BPFT]()
-    - [MapReduce]
+    - [MapReduce]()
 
 - 机器学习算法
     - []()
