@@ -37,11 +37,11 @@ impletement data-structure and algorithm with python
 
 ## 算法
 - 排序算法
-    - [快速排序]()
-    - [冒泡排序]()
-    - [归并排序]()
+    - [快速排序](https://github.com/csunny/algorithm/blob/master/algorithm/quick_sort.py)
+    - [冒泡排序](https://github.com/csunny/algorithm/blob/master/algorithm/bubble_sort.py)
+    - [归并排序](https://github.com/csunny/algorithm/blob/master/algorithm/merge_sort.py)
 - 搜索算法
-    - [二分查找]()
+    - [二分查找](https://github.com/csunny/algorithm/blob/master/algorithm/binary_search.py)
     
     
 - NP(贪婪算法)
