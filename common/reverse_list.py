@@ -22,10 +22,10 @@ def list_reverse(a):
             raise ValueError('Value Error, Excepted list or str, but {0} accepted'.format(type(a)))
 
     for i in range(int(len(a) / 2)):
-        tmp = a[i]
-        a[i] = a[len(a) - i - 1]
-        a[len(a) - i - 1] = tmp
-
+        # tmp = a[i]
+        # a[i] = a[len(a) - i - 1]
+        # a[len(a) - i - 1] = tmp
+        a[i], a[len(a) -i -1] = a[len(a) -i -1], a[i]
     return a
 
 
@@ -33,6 +33,7 @@ def test_reverse_list():
     a_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
     list_reverse(a_list)
 
+    print(a_list)
     assert a_list == ['g', 'f', 'e', 'd', 'c', 'b', 'a']
 
 
@@ -40,6 +41,7 @@ def test_reverse_str():
     reversed_b_str = list_reverse("iosadjjs")
 
     res = ''.join(reversed_b_str)
+    print(res)
     assert res == "sjjdasoi"
 
 

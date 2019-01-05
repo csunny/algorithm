@@ -12,7 +12,7 @@ def merge_sort(values):
     n = len(values)
     if n <= 1:
         return values
-
+ 
     key = int(n / 2)
     left = merge_sort(values[:key])
     right = merge_sort(values[key:])
