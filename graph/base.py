@@ -3,8 +3,57 @@
 """
 This document is created by magic at 2018/8/20
 """
-from mqueue.base import BaseQueue
-from stack.base import BaseStack
+# from mqueue.base import BaseQueue
+# from stack.base import BaseStack
+
+class BaseQueue:
+    """
+    利用python实现一个简单的队列
+    """
+
+    def __init__(self):
+        self.items = []
+
+    def enqueue(self, value):
+        self.items.append(value)
+
+    def dequeue(self):
+        item = self.items[0]
+        self.items = self.items[1:]
+        return item
+
+    @property
+    def size(self):
+        return len(self.items)
+
+    @property
+    def empty(self):
+        return len(self.items) == 0
+
+
+class BaseStack:
+    """
+    doc 利用python实现一个栈
+    """
+
+    def __init__(self):
+        self.items = []
+
+    def push(self, value):
+        self.items.append(value)
+
+    def pop(self):
+        item = self.items[-1]
+        self.items = self.items[0:self.size - 1]
+        return item
+
+    @property
+    def size(self):
+        return len(self.items)
+
+    @property
+    def empty(self):
+        return len(self.items) == 0
 
 
 class BaseGraph:
@@ -70,4 +119,4 @@ if __name__ == '__main__':
     }
 
     graph = BaseGraph(g)
-    graph.dfs("A")
+    graph.bfs("A")
