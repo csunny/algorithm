@@ -16,6 +16,15 @@ def fab(n):
     return result[n]
 
 
+def mprint(n):
+    if n <=0:
+        return 
+        
+    print(n)
+    mprint(n-1)
+
+
 if __name__ == '__main__':
-    print(fab(100))
+    # print(fab(100))
+    mprint(100)
 
