@@ -4,7 +4,7 @@
 import os
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def text_2_code(text):
     response = openai.Completion.create(
