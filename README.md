@@ -62,7 +62,7 @@ impletement data-structure and algorithm with python
     - []()
     
 - 深度学习算法
-    - [transformer](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/dpos.py)
+    - [transformer](https://github.com/csunny/algorithm/tree/master/nlp/transformer.py)
 
 ## 文档
 [文档](https://github.com/csunny/algorithm/tree/master/docs/readme.md)
