@@ -54,7 +54,7 @@ impletement data-structure and algorithm with python
     - [Paxos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/paxos.py)
     - [Pow](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/pow.py)
     - [Pos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/pos.py)
-    - [Dpos](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/dpos.py)
+    - [Dpos](https://github.com/csunny/algorithm/tree/master/nlp/transformer.py)
     - [BPFT]()
     - [MapReduce]()
 
@@ -62,7 +62,7 @@ impletement data-structure and algorithm with python
     - []()
     
 - 深度学习算法
-    - []()
+    - [transformer](https://github.com/csunny/algorithm/tree/master/algorithm/distributed_system/dpos.py)
 
 ## 文档
 [文档](https://github.com/csunny/algorithm/tree/master/docs/readme.md)
