@@ -324,7 +324,14 @@ model.save_pretrained(OUTPUT_DIR)
 
 
 # 总结
-
+综上所述, 我们已经成功的微调了Llama模型通过Alpaca-LoRa方法, 在一份BTC情绪分析数据集上。我们已经使用了HuggingFace提供的Transformers库和HuggingFace提供的数据集的库来加载并且处理数据，同时使用Transformer库来训练我们的模型，最后我们将模型部署在了HuggingFace的模型仓库当中, 并介绍了如何用Gradio应用来使用我们的模型。
 
 # 附录
-- 
+- [alpaca微调](https://www.mlexpert.io/machine-learning/tutorials/alpaca-fine-tuning)
+- [alpaca-lora](https://github.com/tloen/alpaca-lora/)
+- [peft](https://github.com/huggingface/peft)
+- [bitsandbytes](https://github.com/TimDettmers/bitsandbytes)
+- [BTC tweet数据集](https://www.kaggle.com/datasets/aisolutions353/btc-tweets-sentiment)
+- [alpaca数据格式](https://github.com/tatsu-lab/stanford_alpaca#data-release)
+- [llama模型](https://huggingface.co/decapoda-research/llama-7b-hf)
+- [lora Config](https://github.com/huggingface/peft/blob/86f4e45dccf873dd04348b08dbadd30d50171ccc/src/peft/tuners/lora.py#L40)
