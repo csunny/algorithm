@@ -27,7 +27,7 @@ import matplotlib as mpl
 import seaborn as sns
 from pylab import rcParams
 
-device = "cuda" if torch.cuda.is_available() else "mps"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 CUTOFF_LEN = 50
 
@@ -146,7 +146,6 @@ config = LoraConfig(
 
 model = get_peft_model(model, config)
 model.print_trainable_parameters()
-model.to(device)
 
 training_arguments = transformers.TrainingArguments(
     per_device_train_batch_size=MICRO_BATCH_SIZE,
