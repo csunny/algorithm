@@ -65,6 +65,11 @@ impletement data-structure and algorithm with python
     - [transformer](https://github.com/csunny/algorithm/tree/master/nlp/transformer.py)
     - [alpaca-7b本地微调](https://github.com/csunny/algorithm/tree/master/llmodels/alpaca/finetune.py)
 
+
+- 强化学习
+    - [RL](./rl/README.md)
+    - [GRPO](./rl/grpo.py)
+
 ## 文档
 [文档](https://github.com/csunny/algorithm/tree/master/docs/readme.md)
 
