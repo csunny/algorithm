@@ -8,3 +8,10 @@
 [RL for AI Agents](https://www.youtube.com/watch?v=JIsgyk0Paic)
 
 [Unsloth GRPO](https://github.com/unslothai/unsloth)
+1. load pre-train LLM model & tokenizer
+2. load datasets
+3. set reward function
+4. set model training args
+5. train 
+6. inference 
+7. eval

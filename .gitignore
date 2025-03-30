@@ -105,3 +105,4 @@ venv.bak/
 .idea
 .vscode
 data
+unsloth_compiled_cache/
