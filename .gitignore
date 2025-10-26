@@ -106,3 +106,9 @@ venv.bak/
 .vscode
 data
 unsloth_compiled_cache/
+
+# trained models
+models
+datasets
+out
+wandb
